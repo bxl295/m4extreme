@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>../../Clock/Clock.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../../Clock/Clock.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <architecture>2</architecture>
+        </ccTool>
+        <archiverTool>
+          <output>dist/Debug/GNU-Linux-x86/libM4ExtremeClock.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../Clock/Clock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../Clock/Clock.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <commandLine>-Wno-deprecated</commandLine>
+          <warningLevel>0</warningLevel>
+        </ccTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+          <architecture>2</architecture>
+          <warningLevel>0</warningLevel>
+        </asmTool>
+        <archiverTool>
+          <output>dist/Release/GNU-Linux-x86/libM4ExtremeClock.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../Clock/Clock.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../../Clock/Clock.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

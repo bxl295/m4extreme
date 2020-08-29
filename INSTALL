@@ -1,0 +1,58 @@
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, 
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, 
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE 
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+OF THE POSSIBILITY OF SUCH DAMAGE. 
+
+Introduction
+=================================================================================
+
+The source code m4extreme is implemented in standard C++ with STL support, must 
+be compiled against standard C++ compilers. m4extreme contains the following 
+directory structure:
+
+	  m4extreme/SRC 	 source code in C++ of the m4extreme libraries
+	  m4extreme/Tests	 examples of the m4extreme applications
+
+Basic installation
+==================================================================================
+
+Before compiling and installing the package, please examine the libraries 
+dependent on your system setup:
+	  1. A standard C++ compiler (default GCC 4.8.5)
+	  2. The metis library (latest version)
+	  3. The SuperLU library (default SuperLU 4.3)
+
+The way to compile this package is
+    1. 'cd' to the directory m4extreme/SRC/NetBeansProjects and type ./makeproject.sh 
+       to compile the libraries. The usage of makeproject.sh is
+       	  ./makeproject.sh <configuration> <library name> <clean flag>
+	  where the options are
+	  configuration: Debug (debug version with -g) or Release (release version
+	  		 with compiler optimization -O3) 
+	  library name:  "All" compile all libraries
+	  	  	 "Clock" the Clock library only
+			 "Element" the Element library only
+			 "Potential" the Potential library only
+			 "Model" the Model library only
+			 "Material" the Material library only
+			 "Geometry" the Geometry library only
+			 "Set" the Set library only
+			 "Solver" the Solver library only
+			 "Utils" the Utils library only
+	clean flag: 0 clean and rebuild; 1 rebuild without clean
+	
+   2. run ./install.sh to install the libraries. The usage of install.sh is
+      	./install.sh <configuration> <destination>
+	where the options are
+	configuration: Debug (install the debug version) or Release (install the 
+		       release version)	  
+	destination: the installation path
+      After installation, there will be two directories in the installation path, i.e.,
+      lib and include. The debug version will be copied to lib/Debug and the release
+      version to lib/Release.

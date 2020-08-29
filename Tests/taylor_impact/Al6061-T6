@@ -1,0 +1,70 @@
+
+##############################################
+# material properties
+##############################################
+
+# material type
+Al6061-T6
+
+# Shear modulu
+0.0
+
+# Lame constant
+0.0
+
+# Young's modulus (Pa)
+68.9e9
+
+# Poisson's ratio (Pa)
+0.33
+
+# Density (kg/m3 or g/mm3)
+2.7e-3
+
+# Initial Yield stress (Pa)
+2.76e8
+
+# Reference plastic strain
+0.0005
+
+# Hardening constant (Pa)
+2.76e8
+
+# Hardening exponent
+0.075
+
+# Reference plastic strain rate
+1000.0
+
+# Rate-dependent hardening constant (Pa)
+2.76e8
+
+# Rate-dependent hardening exponent
+0.08
+
+# Phase transformation strain rate
+1.0e10
+
+# Rate-dependent hardening exponent after phase transformation
+0.08
+
+# Reference Temperature (K)
+298.0
+
+# Melting Temperature (K)
+925.0
+
+# Heat capacity ( J/(kg*K) or 1.0e6*J/(kg*K) )
+896.0e6
+
+# Linear thermal expansion coefficient (/K)
+2.3876e-5
+
+# Thermal-softening exponent
+0.5
+
+# Taylor-Quinney coefficient
+0.9
+
+# Critical energy release rate (N/m or 1.0e6 * N/mm)
+1.306241e7

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="Algebraic" projectFiles="true">
+        <logicalFolder name="f2" displayName="VectorSpace" projectFiles="true">
+          <logicalFolder name="f1" displayName="Category" projectFiles="true">
+            <logicalFolder name="f3" displayName="Diagonal" projectFiles="true">
+              <itemPath>../../Set/Algebraic/VectorSpace/Category/Diagonal/Diagonal.cpp</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f1" displayName="SkewSymmetric" projectFiles="true">
+              <itemPath>../../Set/Algebraic/VectorSpace/Category/SkewSymmetric/SkewSymmetric.cpp</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f2" displayName="Symmetric" projectFiles="true">
+              <itemPath>../../Set/Algebraic/VectorSpace/Category/Symmetric/Symmetric.cpp</itemPath>
+            </logicalFolder>
+            <itemPath>../../Set/Algebraic/VectorSpace/Category/Category.cpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f2" displayName="Vector" projectFiles="true">
+            <itemPath>../../Set/Algebraic/VectorSpace/Vector/Vector.cpp</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="Indexed" projectFiles="true">
+        <logicalFolder name="f1" displayName="Array" projectFiles="true">
+          <itemPath>../../Set/Indexed/Array/Array.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="Table" projectFiles="true">
+          <itemPath>../../Set/Indexed/Table/Table.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="Manifold" projectFiles="true">
+        <logicalFolder name="f1" displayName="Category" projectFiles="true">
+          <logicalFolder name="f2" displayName="MapId" projectFiles="true">
+            <itemPath>../../Set/Manifold/Category/MapId/MapId.cpp</itemPath>
+          </logicalFolder>
+          <itemPath>../../Set/Manifold/Category/Category.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="Euclidean" projectFiles="true">
+          <logicalFolder name="f1" displayName="Cartesian" projectFiles="true">
+            <itemPath>../../Set/Manifold/Euclidean/Cartesian/Cartesian.cpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f2" displayName="Orthonormal" projectFiles="true">
+            <itemPath>../../Set/Manifold/Euclidean/Orthonormal/Orthonormal.cpp</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="f4" displayName="LinearMapping" projectFiles="true">
+          <itemPath>../../Set/Manifold/LinearMapping/LinearMapping.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f8" displayName="SymmetricSpace" projectFiles="true">
+          <itemPath>../../Set/Manifold/SymmetricSpace/SymmetricSpace.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <architecture>2</architecture>
+        </cTool>
+        <ccTool>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>../../External/jama</pElem>
+            <pElem>../../External/tnt</pElem>
+            <pElem>../..</pElem>
+          </incDir>
+          <commandLine>-Wno-deprecated</commandLine>
+        </ccTool>
+        <asmTool>
+          <architecture>2</architecture>
+        </asmTool>
+        <archiverTool>
+          <output>dist/Debug/GNU-Linux-x86/libM4ExtremeSet.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../Set/Algebraic/VectorSpace/Category/Category.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Algebraic/VectorSpace/Category/Diagonal/Diagonal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Algebraic/VectorSpace/Category/SkewSymmetric/SkewSymmetric.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Algebraic/VectorSpace/Category/Symmetric/Symmetric.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Algebraic/VectorSpace/Vector/Vector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Indexed/Array/Array.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../Set/Indexed/Table/Table.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../Set/Manifold/Category/Category.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Manifold/Category/MapId/MapId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Manifold/Euclidean/Cartesian/Cartesian.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Manifold/Euclidean/Orthonormal/Orthonormal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Manifold/LinearMapping/LinearMapping.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Manifold/SymmetricSpace/SymmetricSpace.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>../../External/jama</pElem>
+            <pElem>../../External/tnt</pElem>
+            <pElem>../..</pElem>
+          </incDir>
+          <commandLine>-Wno-deprecated</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>6</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+        </asmTool>
+        <archiverTool>
+          <output>dist/Release/GNU-Linux-x86/libM4ExtremeSet.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../Set/Algebraic/VectorSpace/Category/Category.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Algebraic/VectorSpace/Category/Diagonal/Diagonal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Algebraic/VectorSpace/Category/SkewSymmetric/SkewSymmetric.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Algebraic/VectorSpace/Category/Symmetric/Symmetric.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Algebraic/VectorSpace/Vector/Vector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Indexed/Array/Array.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../Set/Indexed/Table/Table.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../Set/Manifold/Category/Category.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Manifold/Category/MapId/MapId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Manifold/Euclidean/Cartesian/Cartesian.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Manifold/Euclidean/Orthonormal/Orthonormal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Manifold/LinearMapping/LinearMapping.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Set/Manifold/SymmetricSpace/SymmetricSpace.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

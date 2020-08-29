@@ -1,0 +1,2 @@
+find . -name "*.o" | xargs rm
+find . -name "*.o.d" | xargs rm

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="Indexing" projectFiles="true">
+        <itemPath>../../Utils/Indexing/Indexing.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="LinearAlgebra" projectFiles="true">
+        <logicalFolder name="f1" displayName="Cholesky" projectFiles="true">
+          <itemPath>../../Utils/LinearAlgebra/Cholesky/Cholesky.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="Crout" projectFiles="true">
+          <itemPath>../../Utils/LinearAlgebra/Crout/Crout.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f3" displayName="EigenSym" projectFiles="true">
+          <itemPath>../../Utils/LinearAlgebra/EigenSym/EigenSym.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="Regression" projectFiles="true">
+        <itemPath>../../Utils/Regression/LinearPolynomial2d/LinearPolynomial2d.cpp</itemPath>
+        <itemPath>../../Utils/Regression/Polynomial1d/Polynomial1d.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <architecture>2</architecture>
+        </cTool>
+        <ccTool>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>../..</pElem>
+            <pElem>../../External/jama</pElem>
+            <pElem>../../External/tnt</pElem>
+            <pElem>../../External/SuperLU_4.0</pElem>
+          </incDir>
+          <commandLine>-Wno-deprecated</commandLine>
+        </ccTool>
+        <asmTool>
+          <architecture>2</architecture>
+        </asmTool>
+        <archiverTool>
+          <output>dist/Debug/GNU-Linux-x86/libM4ExtremeUtils.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../Utils/Indexing/Indexing.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../Utils/LinearAlgebra/Cholesky/Cholesky.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Utils/LinearAlgebra/Crout/Crout.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Utils/LinearAlgebra/EigenSym/EigenSym.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Utils/Regression/LinearPolynomial2d/LinearPolynomial2d.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Utils/Regression/Polynomial1d/Polynomial1d.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>../..</pElem>
+            <pElem>../../External/jama</pElem>
+            <pElem>../../External/tnt</pElem>
+            <pElem>../../External/SuperLU_4.0</pElem>
+          </incDir>
+          <commandLine>-Wno-deprecated</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>6</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+        </asmTool>
+        <archiverTool>
+          <output>dist/Release/GNU-Linux-x86/libM4ExtremeUtils.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../Utils/Indexing/Indexing.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../Utils/LinearAlgebra/Cholesky/Cholesky.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Utils/LinearAlgebra/Crout/Crout.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Utils/LinearAlgebra/EigenSym/EigenSym.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Utils/Regression/LinearPolynomial2d/LinearPolynomial2d.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Utils/Regression/Polynomial1d/Polynomial1d.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

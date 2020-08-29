@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>../../Material/MaterialModels.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f11" displayName="Gas" projectFiles="true">
+        <logicalFolder name="f1" displayName="EoS" projectFiles="true">
+          <logicalFolder name="f3" displayName="BlatzKo" projectFiles="true">
+            <itemPath>../../Material/Gas/EoS/BlatzKo/BlatzKo.cpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f1" displayName="Exponential" projectFiles="true">
+            <itemPath>../../Material/Gas/EoS/Exponential/Exponential.cpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f10" displayName="FK2LK" projectFiles="true">
+            <itemPath>../../Material/Gas/EoS/FK2LK/FK2LK.cpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f11" displayName="FKQuadratic" projectFiles="true">
+            <itemPath>../../Material/Gas/EoS/FKQuadratic/FKQuadratic.cpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f2" displayName="Ideal" projectFiles="true">
+            <itemPath>../../Material/Gas/EoS/Ideal/Ideal.cpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f13" displayName="LK2FK" projectFiles="true">
+            <itemPath>../../Material/Gas/EoS/LK2FK/LK2FK.cpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f5" displayName="Polytropic" projectFiles="true">
+            <itemPath>../../Material/Gas/EoS/Polytropic/Polytropic.cpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f4" displayName="Quadratic" projectFiles="true">
+            <itemPath>../../Material/Gas/EoS/Quadratic/Quadratic.cpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f16" displayName="SolidPolytropic" projectFiles="true">
+            <itemPath>../../Material/Gas/EoS/SolidPolytropic/SolidPolytropic.cpp</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <itemPath>../../Material/Gas/Gas.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f14" displayName="Hadamard" projectFiles="true">
+        <itemPath>../../Material/Hadamard/Hadamard.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="Hookean" projectFiles="true">
+        <logicalFolder name="f1" displayName="Cubic" projectFiles="true">
+          <itemPath>../../Material/Hookean/Cubic/Cubic.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="Isotropic" projectFiles="true">
+          <itemPath>../../Material/Hookean/Isotropic/Isotropic.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f16" displayName="Incremental" projectFiles="true">
+        <itemPath>../../Material/Incremental/Incremental.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f26" displayName="MooneyRivlin" projectFiles="true">
+        <itemPath>../../Material/MooneyRivlin/MooneyRivlin.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="NeoHookean" projectFiles="true">
+        <itemPath>../../Material/NeoHookean/NeoHookean.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f21" displayName="Parallel" projectFiles="true">
+        <itemPath>../../Material/Parallel/Parallel.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="PlaneStrain" projectFiles="true">
+        <logicalFolder name="f1" displayName="FiniteKinematics" projectFiles="true">
+          <itemPath>../../Material/PlaneStrain/FiniteKinematics/FiniteKinematics.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="LinearizedKinematics" projectFiles="true">
+          <itemPath>../../Material/PlaneStrain/LinearizedKinematics/LinearizedKinematics.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f18" displayName="Shear" projectFiles="true">
+        <itemPath>../../Material/Shear/Constant/Constant.cpp</itemPath>
+        <itemPath>../../Material/Shear/Exponential/Exponential.cpp</itemPath>
+        <itemPath>../../Material/Shear/FK2LK/FK2LK.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f6" displayName="Source" projectFiles="true">
+        <itemPath>../../Material/Source/Constant/Constant.cpp</itemPath>
+        <itemPath>../../Material/Source/Exponential/Exponential.cpp</itemPath>
+        <itemPath>../../Material/Source/Polymerization/Polymerization.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f8" displayName="Uniaxial" projectFiles="true">
+        <logicalFolder name="f2"
+                       displayName="LinearThermalSoftening"
+                       projectFiles="true">
+          <itemPath>../../Material/Uniaxial/LinearThermalSoftening/LinearThermalSoftening.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f3" displayName="LogLaw" projectFiles="true">
+          <itemPath>../../Material/Uniaxial/LogLaw/LogLaw.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f4" displayName="MeltingTemperature" projectFiles="true">
+          <itemPath>../../Material/Uniaxial/MeltingTemperature/MeltingTemperature.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f1" displayName="PowerLaw" projectFiles="true">
+          <itemPath>../../Material/Uniaxial/PowerLaw/PowerLaw.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f5" displayName="ShearViscosity" projectFiles="true">
+          <itemPath>../../Material/Uniaxial/ShearViscosity/ShearViscosity.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f6" displayName="ThermalSoftening" projectFiles="true">
+          <itemPath>../../Material/Uniaxial/ThermalSoftening/ThermalSoftening.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f7" displayName="TwoStepPowerLaw" projectFiles="true">
+          <itemPath>../../Material/Uniaxial/TwoStepPowerLaw/TwoStepPowerLaw.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f15" displayName="UniaxialStrain" projectFiles="true">
+        <itemPath>../../Material/UniaxialStrain/FiniteKinematics/FiniteKinematics.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>../../External/jama</pElem>
+            <pElem>../../External/tnt</pElem>
+            <pElem>../..</pElem>
+          </incDir>
+          <commandLine>-Wno-deprecated</commandLine>
+        </ccTool>
+        <asmTool>
+          <architecture>2</architecture>
+        </asmTool>
+        <archiverTool>
+          <output>dist/Debug/GNU-Linux-x86/libM4ExtremeMaterial.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../Material/Gas/EoS/BlatzKo/BlatzKo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/EoS/Exponential/Exponential.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/EoS/FK2LK/FK2LK.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/EoS/FKQuadratic/FKQuadratic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/EoS/Ideal/Ideal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/EoS/LK2FK/LK2FK.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/EoS/Polytropic/Polytropic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/EoS/Quadratic/Quadratic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/EoS/SolidPolytropic/SolidPolytropic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/Gas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../Material/Hadamard/Hadamard.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Hookean/Cubic/Cubic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Hookean/Isotropic/Isotropic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Incremental/Incremental.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/MaterialModels.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Material/MooneyRivlin/MooneyRivlin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/NeoHookean/NeoHookean.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Parallel/Parallel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/PlaneStrain/FiniteKinematics/FiniteKinematics.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/PlaneStrain/LinearizedKinematics/LinearizedKinematics.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Shear/Constant/Constant.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Shear/Exponential/Exponential.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Shear/FK2LK/FK2LK.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Source/Constant/Constant.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Source/Exponential/Exponential.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Source/Polymerization/Polymerization.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Uniaxial/LinearThermalSoftening/LinearThermalSoftening.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Uniaxial/LogLaw/LogLaw.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Uniaxial/MeltingTemperature/MeltingTemperature.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Uniaxial/PowerLaw/PowerLaw.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Uniaxial/ShearViscosity/ShearViscosity.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Uniaxial/ThermalSoftening/ThermalSoftening.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Uniaxial/TwoStepPowerLaw/TwoStepPowerLaw.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/UniaxialStrain/FiniteKinematics/FiniteKinematics.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>../../External/jama</pElem>
+            <pElem>../../External/tnt</pElem>
+            <pElem>../..</pElem>
+          </incDir>
+          <commandLine>-Wno-deprecated</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>6</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+        </asmTool>
+        <archiverTool>
+          <output>dist/Release/GNU-Linux-x86/libM4ExtremeMaterial.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../Material/Gas/EoS/BlatzKo/BlatzKo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/EoS/Exponential/Exponential.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/EoS/FK2LK/FK2LK.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/EoS/FKQuadratic/FKQuadratic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/EoS/Ideal/Ideal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/EoS/LK2FK/LK2FK.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/EoS/Polytropic/Polytropic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/EoS/Quadratic/Quadratic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/EoS/SolidPolytropic/SolidPolytropic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Gas/Gas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../Material/Hadamard/Hadamard.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Hookean/Cubic/Cubic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Hookean/Isotropic/Isotropic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Incremental/Incremental.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/MaterialModels.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../Material/MooneyRivlin/MooneyRivlin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/NeoHookean/NeoHookean.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Parallel/Parallel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/PlaneStrain/FiniteKinematics/FiniteKinematics.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/PlaneStrain/LinearizedKinematics/LinearizedKinematics.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Shear/Constant/Constant.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Shear/Exponential/Exponential.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Shear/FK2LK/FK2LK.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Source/Constant/Constant.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Source/Exponential/Exponential.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Source/Polymerization/Polymerization.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Uniaxial/LinearThermalSoftening/LinearThermalSoftening.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Uniaxial/LogLaw/LogLaw.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Uniaxial/MeltingTemperature/MeltingTemperature.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Uniaxial/PowerLaw/PowerLaw.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Uniaxial/ShearViscosity/ShearViscosity.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Uniaxial/ThermalSoftening/ThermalSoftening.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/Uniaxial/TwoStepPowerLaw/TwoStepPowerLaw.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Material/UniaxialStrain/FiniteKinematics/FiniteKinematics.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

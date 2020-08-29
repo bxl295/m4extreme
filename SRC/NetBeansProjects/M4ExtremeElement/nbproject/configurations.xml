@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f10" displayName="Conforming" projectFiles="true">
+        <itemPath>../../Element/Conforming/Conforming.cpp</itemPath>
+        <itemPath>../../Element/Conforming/LumpedMass.cpp</itemPath>
+        <itemPath>../../Element/Conforming/Source.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f12" displayName="Interpolation" projectFiles="true">
+        <logicalFolder name="f2" displayName="MaxEnt" projectFiles="true">
+          <itemPath>../../Element/Interpolation/MaxEnt/MaxEnt.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f4" displayName="MLS" projectFiles="true">
+          <itemPath>../../Element/Interpolation/MLS/MLS.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f1" displayName="Polynomial" projectFiles="true">
+          <itemPath>../../Element/Interpolation/Polynomial/Polynomial.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f3" displayName="Utils" projectFiles="true">
+          <logicalFolder name="f3" displayName="Legendre" projectFiles="true">
+            <itemPath>../../Element/Interpolation/Utils/Legendre/Legendre.cpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f1" displayName="MultiIndex" projectFiles="true">
+            <itemPath>../../Element/Interpolation/Utils/MultiIndex/MultiIndex.cpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f2" displayName="Polynomial" projectFiles="true">
+            <itemPath>../../Element/Interpolation/Utils/Polynomial/Polynomial.cpp</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <itemPath>../../Element/Interpolation/Interpolation.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="Isoparametric" projectFiles="true">
+        <itemPath>../../Element/Isoparametric/Isoparametric.cpp</itemPath>
+        <itemPath>../../Element/Isoparametric/LumpedMass.cpp</itemPath>
+        <itemPath>../../Element/Isoparametric/Source.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="MaterialPoint" projectFiles="true">
+        <itemPath>../../Element/MaterialPoint/LumpedMass.cpp</itemPath>
+        <itemPath>../../Element/MaterialPoint/MaterialPoint.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f8" displayName="Quadrature" projectFiles="true">
+        <logicalFolder name="f1" displayName="Gaussian" projectFiles="true">
+          <itemPath>../../Element/Quadrature/Gaussian/Gaussian.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="Hermite" projectFiles="true">
+          <itemPath>../../Element/Quadrature/Hermite/Hermite.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f4" displayName="Simplicial" projectFiles="true">
+          <itemPath>../../Element/Quadrature/Simplicial/Simplicial.cpp</itemPath>
+        </logicalFolder>
+        <itemPath>../../Element/Quadrature/Quadrature.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <architecture>2</architecture>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>../..</pElem>
+            <pElem>../../External/jama</pElem>
+            <pElem>../../External/tnt</pElem>
+            <pElem>../../External/stlib</pElem>
+          </incDir>
+          <commandLine>-Wno-deprecated</commandLine>
+        </ccTool>
+        <asmTool>
+          <architecture>2</architecture>
+        </asmTool>
+        <archiverTool>
+          <output>dist/Debug/GNU-Linux-x86/libM4ExtremeElement.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../Element/Conforming/Conforming.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/Conforming/LumpedMass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/Conforming/Source.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/Interpolation/Interpolation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/Interpolation/MLS/MLS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/Interpolation/MaxEnt/MaxEnt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/Interpolation/Polynomial/Polynomial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/Interpolation/Utils/Legendre/Legendre.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/Interpolation/Utils/MultiIndex/MultiIndex.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/Interpolation/Utils/Polynomial/Polynomial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/Isoparametric/Isoparametric.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/Isoparametric/LumpedMass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/Isoparametric/Source.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/MaterialPoint/LumpedMass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/MaterialPoint/MaterialPoint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/Quadrature/Gaussian/Gaussian.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/Quadrature/Hermite/Hermite.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/Quadrature/Quadrature.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../Element/Quadrature/Simplicial/Simplicial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>../..</pElem>
+            <pElem>../../External/jama</pElem>
+            <pElem>../../External/tnt</pElem>
+            <pElem>../../External/stlib</pElem>
+          </incDir>
+          <commandLine>-Wno-deprecated</commandLine>
+        </ccTool>
+        <asmTool>
+          <developmentMode>6</developmentMode>
+          <architecture>2</architecture>
+        </asmTool>
+        <archiverTool>
+          <output>dist/Release/GNU-Linux-x86/libM4ExtremeElement.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../Element/Conforming/Conforming.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/Conforming/LumpedMass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/Conforming/Source.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/Interpolation/Interpolation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/Interpolation/MLS/MLS.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/Interpolation/MaxEnt/MaxEnt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/Interpolation/Polynomial/Polynomial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/Interpolation/Utils/Legendre/Legendre.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/Interpolation/Utils/MultiIndex/MultiIndex.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/Interpolation/Utils/Polynomial/Polynomial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/Isoparametric/Isoparametric.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/Isoparametric/LumpedMass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/Isoparametric/Source.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/MaterialPoint/LumpedMass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/MaterialPoint/MaterialPoint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/Quadrature/Gaussian/Gaussian.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/Quadrature/Hermite/Hermite.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/Quadrature/Quadrature.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../Element/Quadrature/Simplicial/Simplicial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+        <ccTool>
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
